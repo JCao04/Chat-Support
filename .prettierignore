@@ -1,0 +1,20 @@
+# Ignore build outputs
+dist/
+build/
+.next/
+out/
+coverage/
+
+# Ignore dependencies
+node_modules/
+pnpm-lock.yaml
+
+# Ignore generated files
+*.tsbuildinfo
+.turbo/
+
+# Ignore Prisma migrations
+apps/api/prisma/migrations/
+
+# Ignore public assets
+public/
